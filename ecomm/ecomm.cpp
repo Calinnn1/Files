@@ -39,9 +39,9 @@ void F_General_Menu();
 void F_Sign_in();
 void F_Developers();
 void F_Logo(); // Logo "Lughia" pt User
-void F_Logo_Owner(); // Logo "Lughia" pt Owner
+void F_Logo_Owner(); // Logo "Lughia" pt Admin
 
-void F_Owner_Main_Menu(); // Meniu principal pt Owner
+void F_Owner_Main_Menu(); // Meniu principal pt Admin
 void F_Owner_Products_Stotage();
 void F_Owner_Customers_List();
 
@@ -852,7 +852,7 @@ void F_Vegetables_Fruits_Menu() {
 		case 50: {
 			for (int j = 0; j < 1000; j++) {
 				system("cls");
-				// Rustam s-a schimbat
+				// s-a schimbat
 				cout << "      Categorie -> Vegetables & Fruits \t\t Cos \n";
 				cout << "____________________________________________________________________________________________________\n";
 				cout << "     Morcov Galben, greutate \t\t\t\t"; cout << Test.get_quantity_carrot() << " (kg)" << endl;
@@ -897,7 +897,7 @@ void F_Vegetables_Fruits_Menu() {
 		case 51: {
 			for (int j = 0; j < 1000; j++) {
 				system("cls");
-				// Rustam s-a schimbat
+				// s-a schimbat
 				cout << "      Categorie -> Vegetables & Fruits \t\t Cos \n";
 				cout << "____________________________________________________________________________________________________\n";
 				cout << "     Ceapa, greutate \t\t\t\t\t"; cout << Test.get_quantity_onion() << " (kg)" << endl;
@@ -1015,7 +1015,7 @@ void F_Water_Beverages_Menu() {
 		case 50: {
 			for (int j = 0; j < 1000; j++) {
 				system("cls");
-				// Rustam s-a schimbat
+				// s-a schimbat
 				cout << "      Categorie -> Ape & Bauturi \t\t\t Cos \n";
 				cout << "____________________________________________________________________________________________________\n";
 				cout << "     Bautura, Aloe Original 500ml \t\t\t  "; cout << Test1.get_quantity_drink_aloe_500ml() << " (pc)" << endl;
@@ -1055,7 +1055,7 @@ void F_Water_Beverages_Menu() {
 		case 51: {
 			for (int j = 0; j < 1000; j++) {
 				system("cls");
-				// Rustam s-a schimbat
+				// s-a schimbat
 				cout << "      Categorie -> Ape & Bauturi \t\t\t Cos \n";
 				cout << "____________________________________________________________________________________________________\n";
 				cout << "     Nectar, Zet Mere 125ml \t\t\t\t"; cout << Test1.get_quantity_nectar_zet_125ml() << " (pc)" << endl;
@@ -1175,7 +1175,7 @@ void F_Bread_Bakery_Menu() {
 		case 50: {
 			for (int j = 0; j < 1000; j++) {
 				system("cls");
-				// Rustam s-a schimbat
+				// s-a schimbat
 				cout << "      Categorie -> Paine & Produse patiserie \t\t Cos \n";
 				cout << "____________________________________________________________________________________________________\n";
 				cout << "     Biscuiti Tuc cheese 100g  \t\t\t\t"; cout << Test2.get_quantity_cracker_tuc_cheese_100g() << " (pc)" << endl;
@@ -1217,7 +1217,7 @@ void F_Bread_Bakery_Menu() {
 		case 51: {
 			for (int j = 0; j < 1000; j++) {
 				system("cls");
-				// Rustam s-a schimbat
+				// s-a schimbat
 				cout << "      Categorie -> Paine & Produse patiserie \t\t Cos \n";
 				cout << "____________________________________________________________________________________________________\n";
 				cout << "     Paine de Salonta \t\t\t\t  "; cout << Test2.get_quantity_bread_samarkand() << " (pc)" << endl;
@@ -1347,7 +1347,7 @@ void F_Cart_Check() {
 			cout << " 0. Mergi inapoi la meniu" << endl;
 
 			switch (_getch()) {
-			case 49: { //buy
+			case 49: { //cumpara
 				system("cls");
 				////
 				// trebuie sa adaugam
@@ -1356,7 +1356,7 @@ void F_Cart_Check() {
 				system("pause");
 			}
 				break;
-			case 48: { // Back
+			case 48: { // Inapoi
 				system("cls");
 				Overall_Sum = 0;
 				F_User_Main_Menu();
